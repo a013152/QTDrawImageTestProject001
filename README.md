@@ -11,6 +11,7 @@
     
 ## 项目主体功能
     1.多相机图片拼接，导出报表、时钟、正则表达式等
+![图片描述](https://github.com/a013152/QTDrawImageTestProject001/blob/main/x64/Debug/QTDrawImageTestProject001.png?raw=true)
 
 ## 作者及文档最后编写日期
 陈琳    2023-11-01

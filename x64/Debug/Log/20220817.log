@@ -1,0 +1,62 @@
+20220817 16:11:44.025 [UI          ]pid@24436 (Message)>System:------------ App Start ------------
+20220817 16:11:45.187 [UI          ]pid@24436 (Message)>System:系统加载参数成功
+20220817 16:11:45.597 [Camera      ]pid@24436 (Error  )>System:未发现任何相机接入!!
+20220817 16:11:45.737 [Detect      ]pid@24436 (Message)>System:ExtProcess Server(Ext-Server#M1I0.3) is listening..
+20220817 16:11:46.195 [Detect      ]pid@24436 (Message)>System:socket server[Ext-Server#M1I0.3] is connected
+20220817 16:12:16.240 [UI          ]pid@24436 (Action )>Admin:登录成功!
+20220817 16:12:34.594 [UI          ]pid@24436 (Action )>Admin:切换到: 操作记录视图
+20220817 16:12:36.196 [UI          ]pid@24436 (Action )>Admin:关闭了: 操作记录视图
+20220817 16:12:36.207 [UI          ]pid@24436 (Action )>Admin:切换到: 生产记录视图
+20220817 16:12:42.556 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/16 16:12:04 - 2022/08/17 16:12:04]
+20220817 16:12:42.569 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:12:46.085 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/15 16:12:04 - 2022/08/17 16:12:04]
+20220817 16:12:46.093 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:12:48.940 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/14 16:12:04 - 2022/08/17 16:12:04]
+20220817 16:12:48.945 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:12:51.557 [UI          ]pid@24436 (Action )>Admin:选择产品为: productname - 10ml
+20220817 16:12:52.780 [UI          ]pid@24436 (Action )>Admin:输入产品批次为: 23
+20220817 16:12:52.985 [UI          ]pid@24436 (Action )>Admin:启动检测..
+20220817 16:12:53.383 [UI          ]pid@24436 (Message)>System:启动检测成功
+20220817 16:12:53.409 [UI          ]pid@24436 (Action )>Admin:关闭了: 生产记录视图
+20220817 16:13:15.828 [UI          ]pid@24436 (Action )>Admin:停止检测..
+20220817 16:13:15.925 [UI          ]pid@24436 (Message)>System:停止检测成功
+20220817 16:13:18.532 [UI          ]pid@24436 (Action )>Admin:切换到: 生产记录视图
+20220817 16:13:19.772 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/14 16:12:04 - 2022/08/17 16:12:04]
+20220817 16:13:19.777 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:13:33.150 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/09 16:12:04 - 2022/08/17 16:12:04]
+20220817 16:13:33.158 [UI          ]pid@24436 (Message)>System: 1 条记录符合条件
+20220817 16:13:36.199 [UI          ]pid@24436 (Action )>Admin:开始对查询生产记录生成报告..
+20220817 16:13:48.964 [UI          ]pid@24436 (Message)>System:生产记录报告保存成功,路径为:E:/workspace/Git/C_Project/DTC_V3/Bin/Debug/Report/23.pdf
+20220817 16:15:08.757 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/09 16:12:04 - 2022/08/18 16:12:04]
+20220817 16:15:09.078 [UI          ]pid@24436 (Message)>System: 1 条记录符合条件
+20220817 16:15:16.133 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/16 16:12:04 - 2022/08/18 16:12:04]
+20220817 16:15:16.138 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:15:20.215 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/16 16:12:04 - 2022/08/18 16:12:04]
+20220817 16:15:20.225 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:15:25.751 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/16 16:12:04 - 2022/08/18 16:12:04]
+20220817 16:15:25.760 [UI          ]pid@24436 (Message)>System: 0 条记录符合条件
+20220817 16:15:30.664 [UI          ]pid@24436 (Action )>Admin:选择产品为: productname - 10ml
+20220817 16:15:32.876 [UI          ]pid@24436 (Action )>Admin:输入产品批次为: 
+20220817 16:15:32.956 [UI          ]pid@24436 (Action )>Admin:关闭了: 生产记录视图
+20220817 16:15:36.146 [UI          ]pid@24436 (Action )>Admin:输入产品批次为: 23
+20220817 16:15:36.253 [UI          ]pid@24436 (Action )>Admin:启动检测..
+20220817 16:15:36.263 [UI          ]pid@24436 (Message)>System:启动检测成功
+20220817 16:15:39.006 [UI          ]pid@24436 (Action )>Admin:停止检测..
+20220817 16:15:39.016 [UI          ]pid@24436 (Message)>System:停止检测成功
+20220817 16:15:40.709 [UI          ]pid@24436 (Action )>Admin:计数清零
+20220817 16:15:40.815 [UI          ]pid@24436 (Message)>System:保存productname-23生产数据成功
+20220817 16:15:42.361 [UI          ]pid@24436 (Action )>Admin:启动检测..
+20220817 16:15:42.371 [UI          ]pid@24436 (Message)>System:启动检测成功
+20220817 16:16:29.965 [UI          ]pid@24436 (Action )>Admin:停止检测..
+20220817 16:16:29.976 [UI          ]pid@24436 (Message)>System:停止检测成功
+20220817 16:16:42.376 [UI          ]pid@24436 (Action )>Admin:切换到: 操作记录视图
+20220817 16:16:52.447 [UI          ]pid@24436 (Action )>Admin:关闭了: 操作记录视图
+20220817 16:16:52.450 [UI          ]pid@24436 (Action )>Admin:切换到: 生产记录视图
+20220817 16:16:57.671 [UI          ]pid@24436 (Action )>Admin:开始查询生产记录: productname@23[2022/08/16 16:12:04 - 2022/08/18 16:12:04]
+20220817 16:16:57.678 [UI          ]pid@24436 (Message)>System: 1 条记录符合条件
+20220817 16:17:21.045 [UI          ]pid@24436 (Action )>Admin:关闭了: 生产记录视图
+20220817 16:17:21.046 [UI          ]pid@24436 (Action )>Admin:切换到: 操作记录视图
+20220817 16:17:31.060 [UI          ]pid@24436 (Action )>Admin:关闭了: 操作记录视图
+20220817 16:17:32.614 [UI          ]pid@24436 (Action )>Admin:切换到: 操作记录视图
+20220817 16:17:55.687 [UI          ]pid@24436 (Action )>Admin:关闭软件
+20220817 16:17:55.704 [UI          ]pid@24436 (Message)>System:------------ App End   ------------

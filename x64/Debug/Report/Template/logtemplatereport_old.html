@@ -1,0 +1,280 @@
+﻿<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>
+DotuAI DTC LOG PDF Report
+</title>
+<style type="text/css">
+	div.block{border:2px solid rgb(44,119,125);border-bottom:0px;padding: 6px 0px;}
+	div.foot{border:2px solid rgb(44,119,125);padding:30px 10px;}
+	div.left{float:left;height:auto;}
+	div.right{float:right;height:auto;}
+	div.footright{float:right;width:30%;height:auto;}
+	div.center{text-align:center;width:auto;}
+	.columncaption{width:20%;background:rgb(203,239,239);text-align:center;margin:2px;padding:2px 0px;font-weight:bold;}
+	.columncontent{width:29%;word-wrap:break-word;word-break:break-all;text-align:left;}
+	.logo{float:left;width:10%;}
+	.clearfloat{clear:both;height:0px;font-size:1px;line-height:0px;}
+	.caption{background:rgb(239,239,239);text-align:center;display:inline-block;height:auto;width:160px;margin:2px;font-weight:bold;}
+	.tdcaption{background:rgb(239,239,239);text-align:center;width:80px;}
+	.footcaption{text-align:center;width:80px;padding:6px;}
+	label{height:auto;}
+	h1{margin:0px;}
+	table{width:100%;}
+	.leaveblank{height:180px;}
+	th{background:rgb(168,203,203);}
+	table>tbody>tr>th{background:rgb(168,239,239);text-align:center;width:80px;};
+	th.time{width:10%;}
+	td{text-align:center;}
+</style>
+</head>
+<body>
+<div class="block">
+	<div class="logo">
+		<img src="@logopath" alt="图像占位符" />
+	</div>
+	<div class="right">
+
+		<div>
+			<caption>导出时间</caption>
+			<caption>@printtime</caption>
+		</div>
+	</div>
+	<div class="center">
+		<h1>操 作 日 志</h1>
+	</div>
+</div>
+
+<div class="block">
+	<table>
+		<tr>
+			<th class="columncaption">生产批号</th>
+			<td class="columncontent">@productbatch</td>
+			<th class="columncaption">产品名称</th>
+			<td class="columncontent">@productname</td>
+		</tr>
+		<tr>
+			<th class="columncaption">处方名称</th>
+			<td class="columncontent">@productformula</td>
+			<th class="columncaption">文件名称</th>
+			<td class="columncontent">@productfile</td>
+		</tr>
+	</table>
+</div>
+
+<div class="block">
+	<table>
+		<thead>
+			<tr>
+				<th class="datetime">日期时间</th>
+				<th class="type">记录类型</th>
+				<th class="operator">操作来源</th>
+				<th class="content">记录内容</th>
+			</tr>
+		</thead>
+		<tbody>
+			@loginfolist
+			<tr class="leaveblank">
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="block">
+	<table>
+		<tr>
+			<th class="columncaption">共计</th>
+			<td class="columncontent">@detecttotal</td>
+			<th class="columncaption">不合格品数</th>
+			<td class="columncontent">@detectfailedcount</td>
+		</tr>
+		<tr>
+			<th class="columncaption">合格品数</th>
+			<td class="columncontent">@detectpasscount</td>
+			<th class="columncaption">不合格品率</th>
+			<td class="columncontent">@detectfailedratio</td>
+		</tr>
+	</table>
+</div>
+
+<div class="block">
+	<table>
+		<thead>
+			<tr>
+				<th>计数器</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>分批1</th>
+				<th>共计</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>1</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>2</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>3</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>4</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>5</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>6</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>7</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>8</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>9</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr>
+				<th>10</th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<th></th>
+			</tr>
+			<tr class="leaveblank">
+			</tr>
+		</tbody>
+	</table>
+</div>
+	
+<div class="foot">
+	<div class="left">
+		<label class="footcaption">确认</label>
+		<label></label>
+	</div>
+	<div class="footright">
+		<label class="footcaption">签名</label>
+		<label></label>
+	</div>
+	<div class="center">
+		<label class="footcaption">日期</label>
+		<label></label>
+	</div>
+</div>
+</body>
+</html>

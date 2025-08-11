@@ -1,0 +1,169 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>
+DotuAI DTC LOG PDF Report
+</title>
+<style type="text/css">
+	div.block{border:2px solid rgb(44,119,125);border-bottom:0px;padding: 6px 0px;}
+	div.foot{border:2px solid rgb(44,119,125);padding:10px 20px;}
+	div.left{float:left;height:auto;}
+	div.right{float:right;height:auto;}
+	div.footright{float:right;width:30%;height:auto;}
+	div.center{text-align:center;width:auto;}
+	.columncaption{width:20%;background:rgb(203,239,239);text-align:center;margin:2px;padding:2px 0px;font-weight:bold;}
+	.columncontent{width:29%;word-wrap:break-word;word-break:break-all;text-align:left;}
+	.logo{float:left;width:10%;}
+	.clearfloat{clear:both;height:0px;font-size:1px;line-height:0px;}
+	.caption{background:rgb(239,239,239);text-align:center;display:inline-block;height:auto;width:160px;margin:2px;font-weight:bold;}
+	.tdcaption{background:rgb(239,239,239);text-align:center;width:80px;}
+	.footcaption{text-align:center;width:80px;padding:6px;}
+	label{height:auto;}
+	h1{margin:0px;}
+	table{width:100%;}
+	.leaveblank{height:180px;}
+	table>thead>tr>th{text-align:left;background:rgb(168,203,203);}
+	th.datetime{width:100px;}
+    th.type{width:70px;}
+    th.operator{width:70px;}
+	table>tbody>tr>td{text-align:left;}
+body
+{
+    text-align:center;
+}
+table
+{
+    font-size:12px;
+    text-align:center;
+    border:1px solid #EFEFEF;
+    border-cellspan:cellspan;
+    margin-top:10px;
+}
+td
+{
+    border:1px solid #EFEFEF;
+}
+</style>
+<script type = "text/javascript">
+function changbackgroundcolor()
+{
+	var trs = document.getElementById("table_log_report").getElementsByTagName("tr");
+	for (var i = 0; i < trs.length; i++)
+	{
+		if (i % 2 == 0)
+		{
+			trs[i].style.backgroundColor = "#A8EFEF";
+		}
+		else
+		{
+			trs[i].style.backgroundColor = "#ffffff";
+		}
+	}
+}
+</script>
+</head>
+<body onLoad="changbackgroundcolor();">
+<div class="block">
+	<div class="logo">
+		<img src="../../Image/MBDD2_logo.png" alt="图像占位符" width="42" height="42"/>
+	</div>
+	<div class="right">
+		<div>
+			<caption>设备</caption>
+			<caption>DTC</caption>
+		</div>
+		<div>
+			<caption>打印时间</caption>
+			<caption>2021-11-04 22:24:20</caption>
+		</div>
+	</div>
+	<div class="center">
+		<h1>操 作 记 录</h1>
+	</div>
+</div>
+<div class="block">
+    <table id="table_log_report" cellspacing="0" cellpadding="5" align="center" >
+		<thead>
+			<tr>
+				<th class="datetime">日期时间</th>
+				<th class="type">记录类型</th>
+				<th class="operator">操作来源</th>
+				<th class="content">记录内容</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr><td>20211104 22:20:40.333 </td><td>系统消息</td><td>System</td><td>------------ App Start ------------
+</td></tr>
+<tr><td>20211104 22:20:41.772 </td><td>系统消息</td><td>System</td><td>系统加载参数成功
+</td></tr>
+<tr><td>20211104 22:21:09.239 </td><td>人员操作</td><td>Admin</td><td>登录成功!
+</td></tr>
+<tr><td>20211104 22:21:12.500 </td><td>人员操作</td><td>Admin</td><td>点击添加新检测规则..
+</td></tr>
+<tr><td>20211104 22:21:23.357 </td><td>人员操作</td><td>Admin</td><td>新检测规则添加成功：测试检测规则002
+</td></tr>
+<tr><td>20211104 22:21:25.526 </td><td>人员操作</td><td>Admin</td><td>点击修改检测规则..
+</td></tr>
+<tr><td>20211104 22:21:29.363 </td><td>人员操作</td><td>Admin</td><td>确认修改【测试检测规则002】检测规则
+</td></tr>
+<tr><td>20211104 22:21:29.383 </td><td>人员操作</td><td>Admin</td><td>修改检测规则关闭
+</td></tr>
+<tr><td>20211104 22:21:31.377 </td><td>人员操作</td><td>Admin</td><td>切换至产品设置页
+</td></tr>
+<tr><td>20211104 22:21:34.891 </td><td>人员操作</td><td>Admin</td><td>点击添加新产品..
+</td></tr>
+<tr><td>20211104 22:21:49.470 </td><td>人员操作</td><td>Admin</td><td>新产品添加成功：测试产品002
+</td></tr>
+<tr><td>20211104 22:21:51.610 </td><td>人员操作</td><td>Admin</td><td>点击修改产品..
+</td></tr>
+<tr><td>20211104 22:21:51.612 </td><td>系统消息</td><td>System</td><td>修改产品使能开启，用户现在可以修改第【14】项产品信息了
+</td></tr>
+<tr><td>20211104 22:21:55.127 </td><td>人员操作</td><td>Admin</td><td>确认修改【测试产品002】产品信息
+</td></tr>
+<tr><td>20211104 22:21:59.477 </td><td>人员操作</td><td>Admin</td><td>点击修改产品..
+</td></tr>
+<tr><td>20211104 22:21:59.479 </td><td>系统消息</td><td>System</td><td>修改产品使能开启，用户现在可以修改第【14】项产品信息了
+</td></tr>
+<tr><td>20211104 22:22:02.187 </td><td>人员操作</td><td>Admin</td><td>确认修改【测试产品002】产品信息
+</td></tr>
+<tr><td>20211104 22:22:03.304 </td><td>人员操作</td><td>Admin</td><td>切换至检测设置页
+</td></tr>
+<tr><td>20211104 22:22:06.921 </td><td>人员操作</td><td>Admin</td><td>删除检测规则【测试检测规则002】完成
+</td></tr>
+<tr><td>20211104 22:22:08.877 </td><td>人员操作</td><td>Admin</td><td>切换至产品检测页
+</td></tr>
+<tr><td>20211104 22:22:09.806 </td><td>人员操作</td><td>Admin</td><td>切换到: 操作记录视图
+</td></tr>
+<tr><td>20211104 22:22:12.535 </td><td>人员操作</td><td>Admin</td><td>点击导出记录，显示导出对话框
+</td></tr>
+<tr><td>20211104 22:22:17.187 </td><td>系统消息</td><td>System</td><td>开始导出记录，日期间隔1天(2021.11.03~2021.11.04)
+</td></tr>
+<tr><td>20211104 22:22:17.753 </td><td>系统消息</td><td>System</td><td>导出进度(0/1), 导出D:/20211104.pdf已完成，耗时558ms
+</td></tr>
+<tr><td>20211104 22:22:17.761 </td><td>系统消息</td><td>System</td><td>导出完成!!总耗时568ms 导出路径："D:/" 
+</td></tr>
+<tr><td>20211104 22:22:22.739 </td><td>人员操作</td><td>Admin</td><td>关闭软件
+</td></tr>
+<tr><td>20211104 22:22:22.764 </td><td>系统消息</td><td>System</td><td>------------ App End   ------------
+</td></tr>
+
+			<tr class="leaveblank"></tr>
+		</tbody>
+    </table>
+</div>
+<div class="foot">
+	<div class="left">
+		<label class="footcaption">确认</label>
+		<label></label>
+	</div>
+	<div class="footright">
+		<label class="footcaption">签名</label>
+		<label></label>
+	</div>
+	<div class="center">
+		<label class="footcaption">日期</label>
+		<label></label>
+	</div>
+</div>
+</body>
+</html>

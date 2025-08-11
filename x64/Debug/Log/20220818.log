@@ -1,0 +1,24 @@
+20220816 11:28:48.470 [UI          ]pid@15220 (Message)>System:------------ App Start ------------
+20220816 11:28:49.984 [UI          ]pid@15220 (Message)>System:系统加载参数失败
+20220816 11:28:50.352 [Camera      ]pid@15220 (Error  )>System:未发现任何相机接入!!
+20220816 11:28:50.358 [Detect      ]pid@15220 (Message)>System:ExtProcess Server(Ext-Server.0) is listening..
+20220816 14:02:28.889 [UI          ]pid@26536 (Message)>System:------------ App Start ------------
+20220816 14:02:30.115 [UI          ]pid@26536 (Message)>System:系统加载参数失败
+20220816 14:02:30.461 [Camera      ]pid@26536 (Error  )>System:未发现任何相机接入!!
+20220816 14:02:30.466 [Detect      ]pid@26536 (Message)>System:ExtProcess Server(Ext-Server.0) is listening..
+20220816 14:20:14.973 [UI          ]pid@7080 (Message)>System:------------ App Start ------------
+20220816 14:20:16.098 [UI          ]pid@7080 (Message)>System:系统加载参数失败
+20220816 14:20:16.442 [Camera      ]pid@7080 (Error  )>System:未发现任何相机接入!!
+20220816 14:20:16.448 [Detect      ]pid@7080 (Message)>System:ExtProcess Server(Ext-Server.0) is listening..
+20220816 14:26:31.684 [UI          ]pid@24992 (Message)>System:------------ App Start ------------
+20220816 14:26:33.230 [UI          ]pid@24992 (Message)>System:系统加载参数成功
+20220816 14:26:33.602 [Camera      ]pid@24992 (Error  )>System:未发现任何相机接入!!
+20220816 14:26:33.612 [Detect      ]pid@24992 (Message)>System:ExtProcess Server(Ext-Server#M1I0.3) is listening..
+20220816 14:26:40.065 [Detect      ]pid@24992 (Message)>System:socket server[Ext-Server#M1I0.3] is connected
+20220816 15:08:00.274 [UI          ]pid@5864 (Message)>System:------------ App Start ------------
+20220816 15:08:01.233 [UI          ]pid@5864 (Message)>System:系统加载参数成功
+20220816 15:08:01.883 [Camera      ]pid@5864 (Error  )>System:未发现任何相机接入!!
+20220816 15:08:02.149 [Detect      ]pid@5864 (Message)>System:ExtProcess Server(Ext-Server#M1I0.3) is listening..
+20220816 15:08:03.407 [Detect      ]pid@5864 (Message)>System:socket server[Ext-Server#M1I0.3] is connected
+20220816 15:08:42.519 [UI          ]pid@5864 (Message)>System:程式无法启动, 用户登录失败!!
+20220816 15:08:45.950 [UI          ]pid@5864 (Message)>System:------------ App End   ------------
